@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Algorithm.iml" filepath="$PROJECT_DIR$/.idea/Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lecture_notes/02_recursion_graph/ch2_Graph/ch2_Graph.iml" filepath="$PROJECT_DIR$/lecture_notes/02_recursion_graph/ch2_Graph/ch2_Graph.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lecture_notes/02_recursion_graph/ch3_Quiz/ch3_Quiz.iml" filepath="$PROJECT_DIR$/lecture_notes/02_recursion_graph/ch3_Quiz/ch3_Quiz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lecture_notes/02_recursion_graph/ch4_Code/ch4_Code.iml" filepath="$PROJECT_DIR$/lecture_notes/02_recursion_graph/ch4_Code/ch4_Code.iml" />
+    </modules>
+  </component>
+</project>

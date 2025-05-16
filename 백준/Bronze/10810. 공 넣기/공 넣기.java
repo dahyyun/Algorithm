@@ -1,0 +1,36 @@
+import java.awt.*;
+import java.io.*;
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) throws Exception {
+        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+        String[] str = (bf.readLine()).split(" ");
+        int a = Integer.parseInt(str[0]);
+        int b =Integer.parseInt(str[1]);
+
+        int[] arr = new int[a];
+
+        for(int i = 0; i < b; i++) {
+            String[] s = (bf.readLine()).split(" ");
+
+            int start = Integer.parseInt(s[0]);
+            int end = Integer.parseInt(s[1]);
+
+            for(int j = start - 1; j < end; j++) {
+                arr[j] = Integer.parseInt(s[2]);
+            }
+
+        }
+
+        for(int i = 0; i < a; i++) {
+            bw.write(arr[i] + " ");
+        }
+
+        bw.flush();
+        bw.close();
+
+    }
+}
